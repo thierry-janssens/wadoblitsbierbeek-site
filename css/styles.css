@@ -1,6 +1,6 @@
 body{margin:0;font-family:Arial;background:#f4f4f4}
 .container{padding:20px;max-width:1100px;margin:auto}
-header{background:#003366;color:white}
+header{background:#cc4444;color:white}
 .logo{margin:0}
 .nav{display:flex;justify-content:space-between;align-items:center}
 nav a{color:white;margin-left:15px;text-decoration:none;font-weight:bold}
