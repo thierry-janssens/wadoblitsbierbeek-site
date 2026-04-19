@@ -1,0 +1,11 @@
+body{margin:0;font-family:Arial;background:#f4f4f4}
+.container{padding:20px;max-width:1100px;margin:auto}
+header{background:#003366;color:white}
+.logo{margin:0}
+.nav{display:flex;justify-content:space-between;align-items:center}
+nav a{color:white;margin-left:15px;text-decoration:none;font-weight:bold}
+.hero{background:#0055a5;color:white;text-align:center;padding:80px 20px}
+.btn{background:#ffcc00;color:black;padding:12px 25px;text-decoration:none;border-radius:5px;font-weight:bold}
+.sponsor-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:20px}
+footer{background:#222;color:white;text-align:center;padding:20px}
+@media(max-width:768px){nav{display:none;flex-direction:column}nav.active{display:flex}#menu-toggle{display:block}}
